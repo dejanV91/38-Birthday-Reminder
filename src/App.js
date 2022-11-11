@@ -1,8 +1,14 @@
-import React, { useState } from 'react';
-import data from './data';
-import List from './List';
+import React, { useState } from "react";
+import List from "./List";
 function App() {
-  return <h2>reminder project setup</h2>;
+  return (
+    <main>
+      <section className="container">
+        <h3>5 Birthday Today</h3>
+        <List />
+      </section>
+    </main>
+  );
 }
 
 export default App;
