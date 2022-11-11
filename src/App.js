@@ -1,22 +1,17 @@
 import React, { useState } from "react";
 import List from "./List";
-function App() {
-  const [list, setList] = useState(<List />);
-  const [number, setNumber] = useState(5);
+import data from "./data";
 
-  const changeEvenet = () => {
-    setList([]);
-    setNumber(0);
-  };
+function App() {
+  const [people, setPeople] = useState(data);
   return (
     <main>
       <section className="container">
-        <h3>{number} Birthday Today</h3>
-        {list}
+        <h3>{people.length} birthdays today</h3>
+        <List people={people} />
         <button
-          className="btn"
           onClick={() => {
-            changeEvenet();
+            setPeople([]);
           }}
         >
           clear all
