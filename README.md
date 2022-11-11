@@ -10,7 +10,8 @@ Demo: **[Birthdays Reminder](https://dejanv91.github.io/36-Social-Network/index.
 ## Stack:
 * Language: **HTML5**, **CSS3**, **JavaScript**
 
-## Package Manager: **npm**
+## Package Manager: 
+* *npm*
 
 ## Idea
 
