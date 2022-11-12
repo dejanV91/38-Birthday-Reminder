@@ -2,7 +2,7 @@
 
 Birthdays Reminder with React<br>
 <br>
-Demo: **[Birthdays Reminder](https://dejanv91.github.io/38-Birthday-Reminder/src)**
+Demo: **[Birthdays Reminder](https://dejanv91.github.io/38-Birthday-Reminder/src/index.js)**
 
 ## Frameworks:
 * JavaScript: **React.js**
